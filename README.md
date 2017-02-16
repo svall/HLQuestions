@@ -1,4 +1,4 @@
-### HLQuestions
+# HLQuestions
 
 #1. HTTP vs. HTTPS:  
 HTTPS is secure, data sent is encrypted. HTTP does not guarantee secure communication of data.
