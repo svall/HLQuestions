@@ -55,16 +55,16 @@ var y = function() { return 1+1; };`
   b. How could you prevent browser caching? (use any technique(s) you want):  
   I know meta tags are used to prevent caching, but I am not very familiar with techniques to prevent caching.
 
-  c. What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?:    
+  c. What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?:   
   I have not used tracking pixels, but I would imagine it is possible to target both with one.
 
   d. List some information the tracking company could collect (ex: IP address):  
   I believe information, such as:
-* time on site or bouce rate
-* number of visits
-* event tracking
+  * time on site or bouce rate
+  * number of visits
+  * event tracking
 
-  e. List some additional information (if any) that could be collected if a script tag is used instead of an img tag:   
+  e. List some additional information (if any) that could be collected if a script tag is used instead of an img tag:     
   If a script tag is used, I believe more of the users behavior can be looked into. Using a script tag, event listeners can be set up to capture more information. An image tag is more of a static element. I have not used pixel tracking, but I do know JavaScript has very useful functionality to understand how the user interacts with a website.
 
 3. Harder!
@@ -75,7 +75,7 @@ Every 2 seconds:
 ­ If no, do nothing
 ** the image is “viewable” if any part of it appears on the screen (so if the image is entirely above or below the viewport, then the user cannot see it, so it is not considered “viewable”)
 
-Steps:
+  Steps:
 - The first step would be to get the window viewport and image location (top and left)
 - Second, set up a function that will be called every two seconds with a timer
 - Third, compare the img to the window location using an if statement with conditionals
