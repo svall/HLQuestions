@@ -1,39 +1,40 @@
-# HLQuestions
+### HLQuestions
 
 1. HTTP vs. HTTPS
-- HTTPS is secure, data sent is encrypted. HTTP does not guarantee secure communication of data.
+HTTPS is secure, data sent is encrypted. HTTP does not guarantee secure communication of data.
 
 2. HTTP GET vs. POST
-- GET method is used by clients to make server requests, it is for information that exists. 
-- POST method sends data (ex. signup forms where user information is sent to a database).
+GET method is used by clients to make server requests, it is for information that exists. 
+POST method sends data (ex. signup forms where user information is sent to a database).
 
 3. Status code 2 vs. 4
-- The codes signal the client-server interaction result. 2 successful interaction, 4 signals an error on the client side.
+The codes signal the client-server interaction result. 2 successful interaction, 4 signals an error on the client side.
 
 4. Ajax
-- It is asynchronous JavaScript XML used with jQuery. It is a technique to send and retrieve information in the background without refreshing the page (a way around JavaScript being a single-thread language). The data can be received in a JSON file format, which is cleaner and easier to use. It is useful with pages like Twitter, where you only need small sets of data to be modified, without needing to reload the entire page content.
+It is asynchronous JavaScript XML used with jQuery. It is a technique to send and retrieve information in the background without refreshing the page (a way around JavaScript being a single-thread language). The data can be received in a JSON file format, which is cleaner and easier to use. It is useful with pages like Twitter, where you only need small sets of data to be modified, without needing to reload the entire page content.
 
 5. Responsive design
-- All browsers have different setups. Responsive design for websites is ensuring all compatibility issues that can make the page look different across browsers is considered. Going further, different platforms, such as mobile, are the next step.
+All browsers have different setups. Responsive design for websites is ensuring all compatibility issues that can make the page look different across browsers is considered. Going further, different platforms, such as mobile, are the next step.
 
 6. CSS rules
-div {background:#fff;}  refers to all html div tags 
-#div {background:#fff;}  refers to the div tag with the id “div”
-.div {background:#fff;}  refers to the div tags with the class “div”
+```div {background:#fff;}```  --> refers to all html div tags 
+```#div {background:#fff;}```  --> refers to the div tag with the id “div”
+```.div {background:#fff;}```  --> refers to the div tags with the class “div”
 
 7. Script tags
-<script src=”http://example.com/whatever.js”> </script> 
-<script>var whatever = true</script> 
+`<script src=”http://example.com/whatever.js”> </script> 
+<script>var whatever = true</script>`
+
 The first snippet is a linking an html file to a JS file, the second is defining a JS variable directly inside the html file.
+
 8. Code snippets
-var x = function() { return 1+1; }();  
-var y = function() { return 1+1; };  
+`var x = function() { return 1+1; }();  
+var y = function() { return 1+1; };`
+
 The first is a function expression with a self-invoking function (the function call at the end). The second is a regular function expression. 
 
-I believe caching can be a problem because the visitor has the data requested in memory, so when they visit the site, the request does not have to be sent to the server, the information will be pulled from local memory. It can create a problem for the tracker if the requests are not sent to the server every time. 
 
-
-PRACTICAL 
+##PRACTICAL 
 
 1. Write HTML/CSS to draw the following scene (inline css is fine if you want):
 a. One red box, 200x200 pixels
