@@ -1,9 +1,9 @@
 ### HLQuestions
 
-1. HTTP vs. HTTPS:  
+#1. HTTP vs. HTTPS:  
 HTTPS is secure, data sent is encrypted. HTTP does not guarantee secure communication of data.
 
-2. HTTP GET vs. POST:  
+#2. HTTP GET vs. POST:  
 GET method is used by clients to make server requests, it is for information that exists. 
 POST method sends data (ex. signup forms where user information is sent to a database).
 
