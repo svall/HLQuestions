@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+}
+
+#bred {
+  width: 200px;
+  height: 200px;
+  background-color: #FF0000;
+  margin: 4px;
+  display: flex;
+}
+
+#bblue {
+  width: 200px;
+  height: 200px;
+  background-color: #0000FF;
+  margin: 4px;
+}
+
+#bgreen {
+  width: 100px;
+  height: 100px;
+  background-color: #008000;
+  margin: auto;
+}
