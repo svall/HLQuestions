@@ -44,27 +44,28 @@ var y = function() { return 1+1; };`
   4. The green box should be centered inside the red box
   5. The red and blue boxes should not overlap
 
-  Code in practical.html file.
+  Code in practical.html and style.css files.
+
 
 2. Tracking pixels:  
 
   a. Why is caching a problem for the analytics company?:  
-- I believe caching can be a problem because the visitor has the data requested in memory, so when they visit the site, the request does not have to be sent to the server, the information will be pulled from local memory. It can create a problem for the tracker if the requests are not sent to the server every time. 
+  I believe caching can be a problem because the visitor has the data requested in memory, so when they visit the site, the request does not have to be sent to the server, the information will be pulled from local memory. It can create a problem for the tracker if the requests are not sent to the server every time. 
 
   b. How could you prevent browser caching? (use any technique(s) you want):  
-- I know meta tags are used to prevent caching, but I am not very familiar with techniques to prevent caching.
+  I know meta tags are used to prevent caching, but I am not very familiar with techniques to prevent caching.
 
   c. What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?:    
-- I have not used tracking pixels, but I would imagine it is possible to target both with one.
+  I have not used tracking pixels, but I would imagine it is possible to target both with one.
 
   d. List some information the tracking company could collect (ex: IP address):  
-- I believe information, such as:
+  I believe information, such as:
 * time on site or bouce rate
 * number of visits
 * event tracking
 
   e. List some additional information (if any) that could be collected if a script tag is used instead of an img tag:   
-- If a script tag is used, I believe more of the users behavior can be looked into. Using a script tag, event listeners can be set up to capture more information. An image tag is more of a static element. I have not used pixel tracking, but I do know JavaScript has very useful functionality to understand how the user interacts with a website.
+  If a script tag is used, I believe more of the users behavior can be looked into. Using a script tag, event listeners can be set up to capture more information. An image tag is more of a static element. I have not used pixel tracking, but I do know JavaScript has very useful functionality to understand how the user interacts with a website.
 
 3. Harder!
 The following image tag appears somewhere on some webpage. The rest of the page is valid HTML, but otherwise unknown.
@@ -80,7 +81,7 @@ Steps:
 - Third, compare the img to the window location using an if statement with conditionals
 - Fourth, log result.
 
-  <script>
+  ```<script>
     // assumming I can get the window viewport wiht window.height
     var windView = window.height;
     var imagView = document.getElementById('myimage');
@@ -93,6 +94,6 @@ Steps:
       }
     }
     window.onload = setInterval(checkTime, 2000);
-  </script>
+  </script>```
 
 
